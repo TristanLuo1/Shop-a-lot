@@ -54,12 +54,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 # Load the CSV file
-with open('/Users/luorui/Desktop/UCL/Data Analytics 2/Scenario Week/product_images.csv', 'r') as f:
+with open('./product_images.csv', 'r') as f:
     reader = csv.reader(f)
     next(reader)  # Skip the first row
     pixel_data = list(reader)
 
-data = pd.read_csv("/Users/luorui/Desktop/UCL/Data Analytics 2/Scenario Week/product_images.csv")
+data = pd.read_csv("./product_images.csv")
 
 
 # In[3]:
@@ -185,7 +185,7 @@ def find_similar_products(product_id, df_clusters, kmeans):
 def app():
     
     # Display an image from a local file
-    image = Image.open('/Users/luorui/Desktop/UCL/Data Analytics 2/Scenario Week/logo.jpg')
+    image = Image.open('./logo.jpg')
     st.image(image, caption="Est.2023", use_column_width=True)
     
     # Centered text using markdown method
