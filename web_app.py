@@ -23,7 +23,6 @@ from yellowbrick.cluster import KElbowVisualizer, SilhouetteVisualizer
 import warnings
 warnings.filterwarnings("ignore")
 
-import os
 
 from PIL import Image
 
