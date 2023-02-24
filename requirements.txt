@@ -4,5 +4,4 @@ matplotlib
 scikit-learn
 yellowbrick
 Pillow
-csv
 streamlit
