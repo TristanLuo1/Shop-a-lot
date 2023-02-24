@@ -3,7 +3,6 @@ pandas
 matplotlib
 sklearn
 yellowbrick
-warnings
 os
 PIL
 csv
